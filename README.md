@@ -1,6 +1,10 @@
 # ChartForge
 
-**Native, editable consulting-style charts for PowerPoint.** Waterfalls, Mekkos, Gantts and stacked columns with growth arrows, drawn as real PowerPoint shapes with one click and editable at any time.
+### Open-source charting for PowerPoint
+
+**Professional charts. No licence fees. No limits.**
+
+Waterfalls, Mekkos, Gantts and stacked columns with growth arrows, drawn as native, editable PowerPoint shapes with one click and editable at any time.
 
 ChartForge is a PowerPoint add-in (`.ppam`) written in VBA. It needs no server, no account and no IT deployment: you load one file through PowerPoint's own Add-ins menu.
 
