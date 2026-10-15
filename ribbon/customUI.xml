@@ -1,0 +1,36 @@
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+      <tab id="afTab" label="ChartForge">
+        <group id="afCharts" label="Charts">
+          <button id="afStacked" label="Stacked" size="large" imageMso="ChartTypeColumnInsertGallery" onAction="AF_Stacked" screentip="Stacked column chart" supertip="Inserts a sample datasheet. Select a datasheet or chart and click again to draw or switch to this type."/>
+          <button id="afClustered" label="Clustered" size="large" imageMso="ChartTypeBarInsertGallery" onAction="AF_Clustered" screentip="Clustered column chart"/>
+          <button id="afPercent" label="100%" size="large" imageMso="ChartTypeAreaInsertGallery" onAction="AF_Percent" screentip="100% stacked column chart"/>
+          <button id="afWaterfall" label="Waterfall" size="large" imageMso="ChartTypeOtherInsertGallery" onAction="AF_Waterfall" screentip="Waterfall chart" supertip="First value is the starting bar, the rest are changes. Type e in a cell for a running total."/>
+          <button id="afMekko" label="Mekko" size="large" imageMso="ChartTypeAllInsertDialog" onAction="AF_Mekko" screentip="Mekko chart" supertip="The first data row sets column widths; the rows below split each column."/>
+          <button id="afGantt" label="Gantt" size="large" imageMso="ChartTypeLineInsertGallery" onAction="AF_Gantt" screentip="Gantt chart" supertip="Dates as YYYY-MM-DD or DD/MM/YYYY. Leave End blank for a milestone."/>
+        </group>
+        <group id="afData" label="Data">
+          <button id="afEdit" label="Edit data" size="large" imageMso="TableInsert" onAction="AF_EditData" screentip="Edit data" supertip="Opens the selected chart's datasheet as a table."/>
+          <button id="afUpdate" label="Update" size="large" imageMso="Refresh" onAction="AF_Update" screentip="Update chart" supertip="Redraws the selected chart, or applies the selected datasheet. Use after resizing a chart."/>
+        </group>
+        <group id="afArrow" label="Growth arrow">
+          <button id="afCagr" label="CAGR" onAction="AF_Cagr"/>
+          <button id="afPct" label="% change" onAction="AF_PctChange"/>
+          <button id="afDiff" label="Difference" onAction="AF_Difference"/>
+          <button id="afRange" label="Columns..." onAction="AF_ArrowRange" screentip="Choose which columns the arrow connects"/>
+          <button id="afNoArrow" label="Remove" onAction="AF_NoArrow"/>
+        </group>
+        <group id="afFormat" label="Labels">
+          <button id="afLabels" label="Values" onAction="AF_Labels" screentip="Show or hide value labels"/>
+          <button id="afTotals" label="Totals" onAction="AF_Totals" screentip="Show or hide totals"/>
+          <button id="afLegend" label="Legend" onAction="AF_Legend" screentip="Show or hide the legend"/>
+          <button id="afDecMore" label="More decimals" onAction="AF_DecMore"/>
+          <button id="afDecLess" label="Fewer decimals" onAction="AF_DecLess"/>
+          <button id="afNumFmt" label="Prefix/suffix..." onAction="AF_NumberFormat"/>
+          <button id="afFont" label="Switch font" onAction="AF_Font" screentip="Toggle between IBM Plex Sans and Calibri"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

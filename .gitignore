@@ -1,0 +1,6 @@
+# PowerPoint lock files and build outputs
+~$*
+*.pptm
+*.ppam
+.DS_Store
+__pycache__/
